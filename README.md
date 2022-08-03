@@ -7,7 +7,7 @@ This tutorial will show you how to configure a UART communication between STM32 
 - STM32CubeMX Software (https://www.st.com/en/development-tools/stm32cubemx.html#overview)
 
 ## STM32 board pinout configuration
-We will use STM32CubeMX sofware in order to configure pins of STM32 board. In this case, I enable UART6 y configure en **Single Wire (Half-Duplex)** mode. It's important that the **Baud Rate** is configured at 115200 bits/s in both boards.
+We will use STM32CubeMX sofware in order to configure pins of STM32 board. By default UART2 is enable, but in this case I will enable UART6 and configure in **Single Wire (Half-Duplex)** mode. It's important that the **Baud Rate** is configured at 115200 bits/s in both boards.
 
 ![182590756-f9dc89ee-fae9-4c8b-99e9-f6bbefd62427](https://user-images.githubusercontent.com/40604222/182591703-20282fe4-e0dc-40d0-bc48-19e37128dcf2.png)
 
