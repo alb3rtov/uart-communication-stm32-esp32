@@ -62,8 +62,8 @@ void loop() {
     length = uart_read_bytes(uart_num, data, length, 100);
     
     if (length > 0) {
-        char * prueba = (char*) data;
-        Serial.println(prueba);
+        char * test = (char*) data;
+        Serial.println(test);
     }
 }
 ```
