@@ -2,8 +2,8 @@
 This tutorial will show you how to configure a UART connection betwewn STM32 board and ESP32 board. You have to take into account that in this example I will configure STM32 as the transmitter board and ESP32 as the receiver board, so **this configuration only works in this scenario**.
 
 ## Requirements
-- STM32 board 
-- ESP32 board
+- STM32 board (In this example, I use STM32F411RE)
+- ESP32 board (In this example, I use ESP32 38 pins)
 - STM32CubeMX Software (https://www.st.com/en/development-tools/stm32cubemx.html#overview)
 
 ## STM32 board pinout configuration
@@ -67,3 +67,7 @@ void loop() {
     }
 }
 ```
+## Circuit diagram
+Connect a single cable through which the STM32 board will transmit the data (Pin PC_6) and the ESP32 will receive it (Pin IO16). Check out the pinout images of this repository.
+
+![Untitled Sketch_bb](https://user-images.githubusercontent.com/40604222/182598429-a4fab4f5-53d2-487c-a12c-c043ab79718c.png)
