@@ -1,5 +1,5 @@
-# How to configure UART connection between STM32 and ESP32
-This tutorial will show you how to configure a UART connection betwewn STM32 board and ESP32 board. You have to take into account that in this example I will configure STM32 as the transmitter board and ESP32 as the receiver board, so **this configuration only works in this scenario**.
+# How to configure UART communication between STM32 and ESP32
+This tutorial will show you how to configure a UART communication between STM32 board and ESP32 board. You have to take into account that in this example I will configure STM32 as the transmitter board and ESP32 as the receiver board, so **this configuration only works in this scenario**.
 
 ## Requirements
 - STM32 board (In this example, I use STM32F411RE)
